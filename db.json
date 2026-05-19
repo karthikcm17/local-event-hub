@@ -1,0 +1,228 @@
+{
+  "users": [
+    {
+      "name": "Karthik",
+      "email": "karthik.cm17@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "id": "EsKj4BwACxU",
+      "favourites": [
+        "e1",
+        "vuulsVJnjGg"
+      ],
+      "reservations": [
+        {
+          "id": "res-1778934156762",
+          "eventId": "e2",
+          "eventTitle": "Sunsets & Strings Acoustic Night",
+          "seats": 2,
+          "totalPaid": 3000,
+          "date": "2026-07-22",
+          "location": "The Open Amp Theatre",
+          "image": "https://i.pinimg.com/1200x/d2/e5/55/d2e555fac88bec81888b3dbe53daa6e3.jpg"
+        },
+        {
+          "id": "res-1779103371776",
+          "eventId": "ERJCw6gkqns",
+          "eventTitle": "Urban Food Festival",
+          "seats": 2,
+          "totalPaid": 4000,
+          "date": "2026-06-05",
+          "location": "Mathura Convention Centre, Mumbai",
+          "image": "https://i.pinimg.com/1200x/5a/7e/26/5a7e263f0f864d167a0cb40426229ac5.jpg"
+        },
+        {
+          "id": "res-1779107791867",
+          "eventId": "vuulsVJnjGg",
+          "eventTitle": "Morning Yoga in the Park",
+          "seats": 1,
+          "totalPaid": 0,
+          "date": "2026-05-18",
+          "location": "Semmozhi Poonga, Chennai",
+          "image": "https://i.pinimg.com/1200x/cf/6e/ac/cf6eacc03b91df5b848f5e45ee6470bc.jpg"
+        },
+        {
+          "id": "res-1779168589071",
+          "eventId": "vuulsVJnjGg",
+          "eventTitle": "Morning Yoga in the Park",
+          "seats": 2,
+          "totalPaid": 0,
+          "date": "2026-05-18",
+          "location": "Semmozhi Poonga, Chennai",
+          "image": "https://i.pinimg.com/1200x/cf/6e/ac/cf6eacc03b91df5b848f5e45ee6470bc.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Ragunathan",
+      "email": "ragu@mail.com",
+      "password": "12345",
+      "role": "organiser",
+      "id": "FA3pm_T164c",
+      "favourites": [
+        "e3"
+      ],
+      "reservations": [
+        {
+          "id": "res-1778934002994",
+          "eventId": "e2",
+          "eventTitle": "Sunsets & Strings Acoustic Night",
+          "seats": 10,
+          "totalPaid": 15000,
+          "date": "2026-07-22",
+          "location": "The Open Amp Theatre",
+          "image": "https://i.pinimg.com/1200x/d2/e5/55/d2e555fac88bec81888b3dbe53daa6e3.jpg"
+        },
+        {
+          "id": "res-1779106502584",
+          "eventId": "vuulsVJnjGg",
+          "eventTitle": "Morning Yoga in the Park",
+          "seats": 2,
+          "totalPaid": 0,
+          "date": "2026-05-18",
+          "location": "Semmozhi Poonga, Chennai",
+          "image": "https://i.pinimg.com/1200x/cf/6e/ac/cf6eacc03b91df5b848f5e45ee6470bc.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Karthikeyan",
+      "email": "Karthik.cm16@gmail.com",
+      "password": "12345",
+      "role": "organiser",
+      "favourites": [],
+      "reservations": [],
+      "id": "rlpnFeqXEMk"
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "Annual Tech Leadership Summit",
+      "category": "Business",
+      "price": 200,
+      "date": "2026-06-15",
+      "location": "Mathura Convention Centre",
+      "image": "https://i.pinimg.com/1200x/38/90/2c/38902cf7988ff38b2d4975c124ee7f21.jpg",
+      "description": "An elite gathering of tech executives focusing on scalable systems, architecture optimization, and modern product engineering workflows.",
+      "organiserId": "u1",
+      "organiserName": "Karthikeyan"
+    },
+    {
+      "id": "e2",
+      "title": "Sunsets & Strings Acoustic Night",
+      "category": "Music",
+      "price": 5000,
+      "date": "2026-07-22",
+      "location": "The Open Amp Theatre",
+      "image": "https://i.pinimg.com/1200x/d2/e5/55/d2e555fac88bec81888b3dbe53daa6e3.jpg",
+      "description": "An intimate evening showcasing high-fidelity acoustic sets, open-air ambient design, and select curated live lounge performances.",
+      "organiserId": "u1",
+      "organiserName": "Karthikeyan"
+    },
+    {
+      "id": "e3",
+      "title": "Elite Culinary Showcase",
+      "category": "Food & Drink",
+      "date": "2026-08-05",
+      "location": "Grand Palace Banquet",
+      "price": 1999,
+      "image": "https://i.pinimg.com/1200x/a9/7a/1f/a97a1f040c00186ac025baaac62a9d41.jpg",
+      "description": "A premium multicourse presentation mapping heritage recipes with modern presentation trends for discerning food enthusiasts.",
+      "organiserId": "u3",
+      "organiserName": "Mathura Lounge"
+    },
+    {
+      "title": "Summer Jazz Festival",
+      "category": "Food & Drink",
+      "date": "2026-05-28",
+      "price": 1000,
+      "location": "Bangalore",
+      "venue": "",
+      "image": "https://i.pinimg.com/1200x/34/7b/bb/347bbbca72f2bd13288ecb293487f9b6.jpg",
+      "description": "Experience an evening of smooth jazz featuring renowned local and international artists. Enjoy the sunset by the river while listening to live performances.",
+      "organiserName": "Ragunathan",
+      "organiserId": "FA3pm_T164c",
+      "id": "ed6GvddGMCo"
+    },
+    {
+      "title": "Kids Science Workshop",
+      "category": "Sports",
+      "date": "2026-05-30",
+      "location": "Trichy",
+      "venue": "",
+      "price": 2000,
+      "image": "https://i.pinimg.com/1200x/c7/2e/7c/c72e7c451c58d102c4247a107354be90.jpg",
+      "description": "Interactive science experiments for kids ages 6-12. Learn about chemistry, physics, and biology through fun hands-on activities.",
+      "organiserName": "Ragunathan",
+      "organiserId": "FA3pm_T164c",
+      "id": "npNMyvN07yE"
+    },
+    {
+      "title": "Urban Food Festival",
+      "category": "Food & Drink",
+      "date": "2026-06-05",
+      "location": "Mathura Convention Centre, Mumbai",
+      "venue": "",
+      "image": "https://i.pinimg.com/1200x/5a/7e/26/5a7e263f0f864d167a0cb40426229ac5.jpg",
+      "price": 2000,
+      "description": "Taste cuisines from around the world with 50+ food trucks and local restaurants. Live cooking demos and family activities.",
+      "organiserName": "Ragunathan",
+      "organiserId": "FA3pm_T164c",
+      "id": "ERJCw6gkqns"
+    },
+    {
+      "title": "Art Gallery Opening",
+      "category": "Art",
+      "date": "2026-07-01",
+      "location": "Modern Art Space, Coimbatore",
+      "venue": "",
+      "image": "https://i.pinimg.com/1200x/e3/e1/43/e3e1432adcaedc776a6ebb8f72b5b7bf.jpg",
+      "price": 0,
+      "description": "Discover contemporary works from emerging local artists. Wine and light refreshments provided.",
+      "organiserName": "Karthikeyan",
+      "organiserId": "rlpnFeqXEMk",
+      "id": "acRrM623zRw"
+    },
+    {
+      "title": "Morning Yoga in the Park",
+      "category": "Wellness",
+      "date": "2026-05-18",
+      "location": "Semmozhi Poonga, Chennai",
+      "venue": "",
+      "image": "https://i.pinimg.com/1200x/cf/6e/ac/cf6eacc03b91df5b848f5e45ee6470bc.jpg",
+      "price": 0,
+      "description": "Start your day with a peaceful outdoor yoga session. All levels welcome. Bring your own mat.",
+      "organiserName": "Karthikeyan",
+      "organiserId": "rlpnFeqXEMk",
+      "id": "vuulsVJnjGg"
+    },
+    {
+      "title": "Electronic Music Night",
+      "category": "Music",
+      "date": "2026-06-03",
+      "location": "VGP Golden Beach, ECR",
+      "venue": "",
+      "image": "https://i.pinimg.com/1200x/7b/83/48/7b83481a4cf0c574be1e71dd0294121e.jpg",
+      "price": 500,
+      "description": "Dance the night away with top DJs spinning house, techno, and electronic beats.\n\n",
+      "organiserName": "Karthikeyan",
+      "organiserId": "rlpnFeqXEMk",
+      "id": "5kJ2UwEY3O0"
+    },
+    {
+      "title": "Tech Startup Meetup",
+      "category": "Business",
+      "date": "2026-06-07",
+      "location": "Mathura Convention Centre",
+      "venue": "",
+      "image": "https://i.pinimg.com/1200x/e1/e1/0d/e1e10d13acf77dccda256414f39638ac.jpg",
+      "price": 0,
+      "description": "Connect with fellow entrepreneurs, pitch your ideas, and learn from successful founders. Networking drinks included.",
+      "organiserName": "Ragunathan",
+      "organiserId": "FA3pm_T164c",
+      "id": "0AHWBR3FLgs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
