@@ -73,9 +73,9 @@ const Home = () => {
 
             <Link to="/" className="text-[#004D4D] border-b-2 border-[#D4AF37] pb-1 h-full flex items-center transition"
             > Home </Link>
-            <a href="#about" className="hover:text-[#004D4D] border-b-2 border-transparent pb-1 h-full flex items-center transition"
+            <a href="#" className="hover:text-[#004D4D] border-b-2 border-transparent pb-1 h-full flex items-center transition"
             > About Us </a>
-            <a href="#contact" className="hover:text-[#004D4D] border-b-2 border-transparent pb-1 h-full flex items-center transition"
+            <a href="#" className="hover:text-[#004D4D] border-b-2 border-transparent pb-1 h-full flex items-center transition"
             > Contact </a>
 
             {!user ? (
