@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home'; 
 import Login from './pages/Login';
 import Signup from './pages/SignUp';
@@ -11,7 +11,7 @@ import AllEvents from './pages/AllEvents';
 
 function App() {
   return (
-    <Router>
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/all-events" element={<AllEvents />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
